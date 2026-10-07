@@ -1,0 +1,21 @@
+import { LinkedList } from "./linkedlist.js";
+
+let list = new LinkedList();
+list.append(10);
+list.append(9);
+list.append(8);
+list.prepend(11);
+list.toString();
+console.log(list.size());
+console.log(list.headval());
+console.log(list.tail());
+console.log(list.at(0));
+console.log(list.pop());
+list.toString();
+console.log(list.contains(11));
+console.log(list.findIndex(11));
+list.insertAt(1,22,33,44);
+list.toString();
+list.removeAt(2);
+list.toString();
+//list.append(9);
